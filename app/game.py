@@ -1,3 +1,3 @@
 class FizzBuzz(object):
 	def count(self,number):
-		pass
+		return str(number)
