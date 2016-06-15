@@ -15,6 +15,8 @@ class FizzBuzzTest(unittest.TestCase):
 	def test_3_return_fizz(self):
 		self.assertEqual("Fizz", self.fizzbuzz.count(3))
 
-
 	def test_4_return_fizz_any(self):
 		self.assertEqual("Fizz", self.fizzbuzz.count(9))
+
+	def test_5_return_buzz(self):
+		self.assertEqual("Buzz", self.fizzbuzz.count(5))
