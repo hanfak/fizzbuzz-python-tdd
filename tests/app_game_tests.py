@@ -21,11 +21,11 @@ class FizzBuzzTest(unittest.TestCase):
 	def test_5_return_buzz(self):
 		self.assertEqual("Buzz", self.fizzbuzz.count(5))
 
-	def test_6_return_buzz(self):
+	def test_6_return_buzz_any(self):
 		self.assertEqual("Buzz", self.fizzbuzz.count(20))
 
 	def test_7_return_fizzbuzz(self):
 		self.assertEqual("FizzBuzz", self.fizzbuzz.count(15))
 
-	def test_7_return_fizzbuzz(self):
+	def test_8_return_fizzbuzz_any(self):
 		self.assertEqual("FizzBuzz", self.fizzbuzz.count(90))

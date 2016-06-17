@@ -1,5 +1,5 @@
 class FizzBuzz(object):
-	def count(self,number):
+	def count(self, number):
 		if self.__divisible_by(number, 15):
 			return "FizzBuzz"
 

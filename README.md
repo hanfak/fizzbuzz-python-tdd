@@ -3,13 +3,13 @@ Using nosetest with unittest
 to run
 
 install
+  python
   nose
   rednose
-  python
 
 
 to run test
   nosetests -v --rednose
 
 
-First attempt of doing tdd with python, using the fizzbuzz kata
+First attempt at sovling the fizzbuzz kata using tdd with python
